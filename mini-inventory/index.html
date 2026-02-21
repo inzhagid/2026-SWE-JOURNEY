@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Inventory</title>
+  </head>
+  <body>
+    <h2>Mini Inventory</h2>
+
+    <div id="formSection">
+      <div>
+        <label for="codeInput">Code:</label>
+        <input type="text" id="codeInput" />
+      </div>
+
+      <div>
+        <label for="nameInput">Name:</label>
+        <input type="text" id="nameInput" />
+      </div>
+
+      <div>
+        <label for="qtyInput">Qty:</label>
+        <input type="number" id="qtyInput" />
+      </div>
+
+      <button id="addBtn">Add</button>
+    </div>
+
+    <div class="searchSection">
+      <input type="text" id="searchInput" placeholder="Search by code / name" />
+
+      <select id="sortSelect">
+        <option value="code-asc">Code A-Z</option>
+        <option value="name-asc">Name A-Z</option>
+        <option value="qty-desc">Qty Z-A</option>
+      </select>
+    </div>
+
+    <div id="summarySection"></div>
+    <div id="listSection"></div>
+    <div id="movementSection"></div>
+    <div id="reportMovementSection"></div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

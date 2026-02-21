@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker</title>
+  </head>
+  <body>
+    <h1>Expense Tracker</h1>
+
+    <div id="formSection">
+      <input type="date" id="inputDate" />
+      <input type="number" id="inputAmount" />
+      <select id="selectCategory">
+        <option value="">Choose</option>
+        <option value="Makan">Makan</option>
+        <option value="Transport">Transport</option>
+        <option value="Pulsa">Pulsa</option>
+        <option value="Lainnya">Lainnya</option>
+      </select>
+      <input type="text" id="inputNote" />
+
+      <button id="addBtn">Add</button>
+    </div>
+    <br />
+
+    <div id="filterSection">
+      <select id="filterCategory">
+        <option value="All">All</option>
+        <option value="Makan">Makan</option>
+        <option value="Transport">Transport</option>
+        <option value="Pulsa">Pulsa</option>
+        <option value="Lainnya">Lainnya</option>
+      </select>
+
+      <input type="date" id="dateFrom" />
+      <input type="date" id="dateTo" />
+
+      <button id="resetFilterBtn">Reset</button>
+      <button id="exportCsvBtn">Export CSV</button>
+    </div>
+
+    <div id="summarySection"></div>
+    <div id="listSection"></div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
