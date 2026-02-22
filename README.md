@@ -21,7 +21,6 @@ Fokus skill:
 - Async & Fetch API
 - LocalStorage persistence
 - Debounce & basic race-condition handling
-- Git workflow (branch & PR ke diri sendiri)
 
 ---
 
@@ -99,9 +98,6 @@ Latihan kecil untuk mengasah:
 - [x] Debounce implementation
 - [x] Simple caching strategy
 - [x] Basic race condition handling
-- [ ] Modular file separation
-- [ ] Advanced error handling improvement
-- [ ] Refactor for reusability
 
 ---
 
@@ -129,8 +125,3 @@ Tujuannya adalah membangun:
 ## 📌 Catatan
 
 Semua project dibangun tanpa framework untuk memperkuat fundamental.
-
-Target selanjutnya:
-- Refactor modular
-- Improve UI polish
-- Lanjut ke framework (React/Laravel frontend integration)
